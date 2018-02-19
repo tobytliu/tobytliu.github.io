@@ -1,0 +1,173 @@
+.container {
+	width: 100%;
+}
+
+section (.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p),
+.section-heading(.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p) {
+	font-family: arial;
+	color: #1f364d;
+}
+
+p, label, input::placeholder {
+	font-family: arial;
+}
+
+li {
+    margin: auto 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	color: none;
+}
+
+.pad-top {
+	margin-top: 5vh;
+}
+
+.underline {
+	border-bottom: .25rem solid #c5b0c3;
+	padding-bottom: .25rem;
+}
+
+.burnt-orange {
+	color: #bf5700;
+}
+
+.white {
+	color: white;
+}
+
+.bg-primary {
+	background-color: #c5b0c3!important;
+}
+
+.bg-dark {
+	background-color: #0d2632!important;
+}
+
+.bg-gray {
+	background-color: #E0E0E0!important;
+}
+
+.text-dark {
+	color: #1f364d!important;
+}
+
+.text-muted {
+	color: #d4d4d4!important;
+}
+
+.text-purple {
+	color: #c5b0c3!important;
+}
+
+.text-gray {
+	color: #6b7c93!important;
+}
+
+header.masthead {
+	background-image: none;
+	background: linear-gradient(180deg,#1a4357,#0d2632);
+}
+
+.navbar-nav {
+	margin: 0 auto;
+}
+
+.navbar-brand {
+	margin: 0px;
+}
+
+#mainNav .navbar-brand {
+	font-family: 'EB Garamond', serif;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover, 
+#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover{
+	color: #c5b0c3!important;
+}
+
+#logo {
+	height: 6vh;
+}
+
+.title-card {
+	font-family: 'MD Garamond', serif;
+	letter-spacing: 5px;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+	color: #c5b0c3!important;
+}
+
+#subtitle-card {
+	margin-top: 5vh;
+}
+
+header.masthead p {
+	font-size: 1.25rem;
+}
+
+#find-out-more:hover {
+	color: #c5b0c3;
+}
+
+@media only all and (max-min: 768) {
+	text-align: left;
+}
+
+.header-icons {
+	margin: 0rem .5rem;
+}
+
+.fa-facebook-square {
+	color: #3B5998;
+}
+
+.fa-reddit-alien {
+	color: #ff5700;
+}
+
+.fa-slack {
+	color: #77d4b6;
+}
+
+.fa-medium {
+	color: #00e468;
+}
+
+#about {
+	color: #c5b0c3;
+}
+
+section {
+	padding: 3rem 0;
+}
+
+h1.section-heading {
+	color: #1f364d;
+}
+
+.btn {
+	border-radius: 5px;
+	background-color: #6b7c93;
+}
+
+.btn-dark {
+	background-color: #0d2632;
+}
+
+.btn:hover {	
+	/* may the css gods forgive me for using this !important */
+	background-color: #c5b0c3!important;
+}
